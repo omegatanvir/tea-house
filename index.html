@@ -10,7 +10,10 @@
     <!-- Google manrope Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;
+    700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/13fac3f82d.js" crossorigin="anonymous"></script>
     <!-- Tailwinds Customize -->
     <script>
     tailwind.config = {
@@ -31,7 +34,37 @@
     </style>
 </head>
 <body class="manrope-font">
-    <header></header>
+    <header>
+<!-- hero section -->
+        <section class="container mx-auto">
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                    <!-- Hero Content -->
+                  <div>
+                    <h1 class="text-7xl font-extrabold">
+                        It's good <br> 
+                        tea time at The <br>
+                        Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="btn btn-primary">Explore More</button>
+                  </div>
+                  <!-- Hero Image -->
+                  <div>
+                    <img src="./assets/img/banner.png" class="max-w-sm" />
+                    <!-- rating box -->
+                    <div class="-mt-20 flex items-center gap-5 bg-white drop-shadow  p-5 w-60">
+                        <i class="fa-solid fa-star font-extrabold text-3xl text-orange-300	"></i>
+                        <div>
+                            <h3>5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+    </header>
     <main></main>
     <footer></footer>
 </body>
